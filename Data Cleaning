@@ -1,0 +1,18 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df=pd.read_excel(r"C:\Users\Subhojeet Dutta\Downloads\SBC copy.xlsx")
+
+df.shape #Gives the no. of rows and columns
+
+df.head(7) #Gives the first number of rows(Ex-7)
+
+pd.set_option('display.max_columns',None) #Display all the columns which are present
+pd.set_option('display.max_rows',None) #Display all the rows which are present 
+
+df.info()    '''The total number of rows (entries) in the DataFrame.
+               The data type of each column.
+               The number of non-null values in each column. Non-null values indicate the count of non-missing values for each column, helping you to identify potential missing data.
+                Memory usage, which indicates the amount of memory consumed by the DataFrame.'''
