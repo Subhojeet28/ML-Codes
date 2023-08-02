@@ -9,8 +9,8 @@ df.shape #Gives the no. of rows and columns
 
 df.head(7) #Gives the first number of rows(Ex-7)
 
-pd.set_option('display.max_columns',None) #Display all the columns which are present
-pd.set_option('display.max_rows',None) #Display all the rows which are present 
+pd.set_option('display.max_columns',None) #Display all the columns which are present although we can input the required columns number and get the desired output
+pd.set_option('display.max_rows',None) #Display all the rows which are present although we can input the required rows number and get the desired output
 
 df.info()    '''The total number of rows (entries) in the DataFrame.
                The data type of each column.
