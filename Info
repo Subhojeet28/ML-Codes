@@ -1,0 +1,10 @@
+df.info() #Provides the type of data which is present in table(int,float,object)
+
+data_types_counts = df.dtypes.value_counts()
+print(data_types_counts)                        #Gives us a summary of what type of data is present in the table
+
+
+df["userdemogrphs.userage"] #Display the columns 
+
+ 
+
